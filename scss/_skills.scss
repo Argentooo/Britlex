@@ -6,6 +6,7 @@
     grid-template-columns: repeat(3, 435px);
     grid-row-gap: 20px;
     grid-column-gap: 18px;
+    margin-top: 96px;
   }
   &__box1 {
     grid-row-start: 1;
@@ -33,6 +34,7 @@
     color: $dark;
     text-align: center;
     margin-top: 103px;
+    margin-bottom: 0;
     box-sizing: inherit;
   }
   &__wrapper-title {

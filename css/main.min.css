@@ -153,6 +153,7 @@ body {
       grid-template-columns: repeat(3, 435px);
   grid-row-gap: 20px;
   grid-column-gap: 18px;
+  margin-top: 96px;
 }
 
 .skills__box1 {
@@ -188,6 +189,7 @@ body {
   color: #000000;
   text-align: center;
   margin-top: 103px;
+  margin-bottom: 0;
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
