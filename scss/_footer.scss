@@ -1,0 +1,46 @@
+@import "vars";
+
+.footer {
+  margin-top: 133px;
+  &__inner {
+    padding: 0 1px 0 6px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    &::before {
+      position: absolute;
+      border-top: 1px solid #c4c4c4;
+      content: "";
+      left: 6px;
+      right: 6px;
+    }
+  }
+  &__menu {
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 58px;
+    list-style: none;
+  }
+  &__logo {
+    margin-top: 31px;
+    margin-bottom: 64px;
+  }
+  &__item + &__item {
+    list-style: disc;
+    color: $grey;
+  }
+  &__item {
+    margin-right: 13px;
+    margin-left: 13px;
+  }
+  &__link {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: $grey;
+    text-decoration: none;
+  }
+}

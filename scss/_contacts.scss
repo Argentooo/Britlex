@@ -26,7 +26,7 @@
     font-size: 20px;
     line-height: 30px;
     color: $grey;
-    margin: 0 0 52px 0;
+    margin: 0 -10px 52px 0;
   }
   &__input {
     font-family: $main-font;
@@ -37,7 +37,7 @@
     color: $grey;
     border: 1px solid $grey;
     border-radius: 10px;
-    padding: 26px 280px 30px 33px;
+    padding: 26px 270px 30px 33px;
     max-width: 450px;
     max-height: 80px;
   }

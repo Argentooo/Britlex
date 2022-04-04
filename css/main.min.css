@@ -641,7 +641,7 @@ body {
   font-size: 20px;
   line-height: 30px;
   color: #8f95a5;
-  margin: 0 0 52px 0;
+  margin: 0 -10px 52px 0;
 }
 
 .contacts__input {
@@ -653,7 +653,7 @@ body {
   color: #8f95a5;
   border: 1px solid #8f95a5;
   border-radius: 10px;
-  padding: 26px 280px 30px 33px;
+  padding: 26px 270px 30px 33px;
   max-width: 450px;
   max-height: 80px;
 }
@@ -681,4 +681,64 @@ body {
           align-items: center;
   gap: 12px;
   margin: 0 24px 89px 0;
+}
+
+.footer {
+  margin-top: 133px;
+}
+
+.footer__inner {
+  padding: 0 1px 0 6px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__inner::before {
+  position: absolute;
+  border-top: 1px solid #c4c4c4;
+  content: "";
+  left: 6px;
+  right: 6px;
+}
+
+.footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 55px;
+  margin-bottom: 58px;
+  list-style: none;
+}
+
+.footer__logo {
+  margin-top: 31px;
+  margin-bottom: 64px;
+}
+
+.footer__item + .footer__item {
+  list-style: disc;
+  color: #8f95a5;
+}
+
+.footer__item {
+  margin-right: 13px;
+  margin-left: 13px;
+}
+
+.footer__link {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #8f95a5;
+  text-decoration: none;
 }
