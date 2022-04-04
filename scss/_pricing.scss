@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: 425px 425px 425px;
     margin-top: 57px;
-    grid-template-rows: 583px;
+    grid-template-rows: 586px;
     gap: 39px;
   }
   &__box1 {
@@ -60,7 +60,7 @@
     background: #eeeeee;
     border-radius: 5px;
     max-width: 240px;
-    margin: 0 185px 3px 0;
+    margin: 0 185px 0 0;
   }
   &__strong {
     font-family: $main-font;
@@ -94,7 +94,7 @@
     font-size: 20px;
     line-height: 30px;
     color: $grey;
-    margin: 0 20px 59px 3px;
+    margin: 0 20px 57px 3px;
   }
   &__a2 {
     font-family: $main-font;
@@ -110,7 +110,7 @@
     padding: 0 27px 0 12px;
     background: #eeeeee;
     border-radius: 5px;
-    margin: 0 146px 1px 5px;
+    margin: -1px 146px 0 5px;
   }
   &__strong2 {
     font-family: $main-font;
@@ -165,6 +165,6 @@
     display: flex;
     align-items: center;
     max-width: 240px;
-    margin: 0 185px 3px 0;
+    margin: 0 185px 0 0;
   }
 }

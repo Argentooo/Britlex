@@ -429,8 +429,8 @@ body {
   -ms-grid-columns: 425px 425px 425px;
       grid-template-columns: 425px 425px 425px;
   margin-top: 57px;
-  -ms-grid-rows: 583px;
-      grid-template-rows: 583px;
+  -ms-grid-rows: 586px;
+      grid-template-rows: 586px;
   gap: 39px;
 }
 
@@ -480,7 +480,7 @@ body {
   background: #eeeeee;
   border-radius: 5px;
   max-width: 240px;
-  margin: 0 185px 3px 0;
+  margin: 0 185px 0 0;
 }
 
 .pricing__strong {
@@ -519,7 +519,7 @@ body {
   font-size: 20px;
   line-height: 30px;
   color: #8f95a5;
-  margin: 0 20px 59px 3px;
+  margin: 0 20px 57px 3px;
 }
 
 .pricing__a2 {
@@ -540,7 +540,7 @@ body {
   padding: 0 27px 0 12px;
   background: #eeeeee;
   border-radius: 5px;
-  margin: 0 146px 1px 5px;
+  margin: -1px 146px 0 5px;
 }
 
 .pricing__strong2 {
@@ -605,5 +605,80 @@ body {
       -ms-flex-align: center;
           align-items: center;
   max-width: 240px;
-  margin: 0 185px 3px 0;
+  margin: 0 185px 0 0;
+}
+
+.contacts {
+  margin-top: 258px;
+}
+
+.contacts__inner {
+  padding: 0 24px 0 0;
+  margin-left: -13px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 477px 751px;
+      grid-template-columns: 477px 751px;
+  gap: 111px;
+  -ms-grid-rows: 429px;
+      grid-template-rows: 429px;
+}
+
+.contacts__title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: #000000;
+  margin: 33px 482px 37px 0;
+}
+
+.contacts__text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #8f95a5;
+  margin: 0 0 52px 0;
+}
+
+.contacts__input {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8f95a5;
+  border: 1px solid #8f95a5;
+  border-radius: 10px;
+  padding: 26px 280px 30px 33px;
+  max-width: 450px;
+  max-height: 80px;
+}
+
+.contacts__sub {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  background: #263238;
+  border-radius: 10px;
+  padding: 25px 81px 25px 82px;
+  max-width: 264px;
+  max-height: 80px;
+}
+
+.contacts__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  margin: 0 24px 89px 0;
 }
