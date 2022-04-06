@@ -3,6 +3,7 @@
 .menu {
   display: flex;
   list-style: none;
+  padding: 0;
   &__link {
     text-decoration: none;
     font-family: $main-font;

@@ -1,0 +1,201 @@
+@import "vars";
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 958px;
+    margin: 0 auto;
+  }
+  /*----HEADER----*/
+  .header {
+    margin-bottom: 68px;
+    &__inner {
+      margin-top: 25px;
+      padding: 0 14px;
+      max-height: 50px;
+    }
+    &__nav {
+      margin-left: 167px;
+    }
+    &__logo {
+      max-width: 89px;
+      min-height: 45px;
+    }
+  }
+  .menu {
+    margin: auto;
+    &__link {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &__2 {
+      margin-left: 31px;
+      margin-right: 26px;
+    }
+    &__4 {
+      margin-left: 48px;
+      margin-right: 27px;
+    }
+    &__bg-item {
+      margin-left: 87px;
+    }
+    &__bg {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      padding: 12px 40px 11px 40px;
+    }
+  }
+
+  /*----HERO----*/
+  .hero {
+    &__inner {
+      gap: 61px;
+      padding: 0 4px 0 12px;
+      display: grid;
+      grid-template-rows: 460px;
+    }
+    &__info {
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 64px;
+      margin-top: 13px;
+    }
+    &__img {
+      max-width: 460px;
+      max-height: 460px;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 27px;
+      margin-bottom: 55px;
+      margin-left: 4px;
+    }
+    &__link {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      padding: 22px 78px 22px 79px;
+      border-radius: 5px;
+      margin-bottom: 25px;
+    }
+  }
+  /*----SKILLS----*/
+  .skills {
+    margin-top: -56px;
+    &__inner {
+      padding: 0 9px 0 15px;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 80px;
+    }
+    &__wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 304px);
+      grid-template-rows: 442px;
+      grid-gap: 13px;
+      padding-top: 52px;
+    }
+    &__box1 {
+      max-height: 696px;
+    }
+    &__photo1 {
+      max-height: 260px;
+      padding: 0 21px 0 22px;
+    }
+    &__wrapper-title {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 80px;
+    }
+    &__wrapper-title1 {
+      padding: 0 168px 3px 29px;
+    }
+    &__wrapper-text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+    }
+    &__wrapper-text1 {
+      padding: 0 21px 42px 28px;
+    }
+    &__wrapper-text1-2 {
+      padding: 32px 20px 0 0;
+    }
+    &__link1 {
+      padding: 0 79px 52px 28px;
+    }
+    &__a1 {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      padding: 16px 41px 19px 42px;
+    }
+    &__box2 {
+      max-height: 441px;
+    }
+    &__photo2 {
+      max-height: 205px;
+      margin: 0;
+      padding: 5px 10px 0 87px;
+    }
+    &__wrapper-title2 {
+      margin: -30px 191px 0 29px;
+    }
+    &__wrapper-text2 {
+      padding: 0 26px 39px 29px;
+    }
+    &__link2 {
+      padding: 0 77px 30px 29px;
+    }
+    &__a {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      padding: 16px 41px 19px 42px;
+    }
+    &__box3 {
+      max-height: 442px;
+    }
+    &__photo3 {
+      max-width: 243px;
+      max-height: 162px;
+      margin: 16px 58px 0 3px;
+      padding: 0;
+    }
+    &__wrapper-title3 {
+      padding: 0;
+      margin: 3px 184px -4px 26px;
+    }
+    &__wrapper-text3 {
+      padding: 0 42px 38px 26px;
+    }
+    &__link3 {
+      padding: 0 81px 32px 27px;
+    }
+    &__box4 {
+      max-width: 616px;
+      max-height: 241px;
+      grid-template-columns: 344px 272px;
+    }
+    &__photo4 {
+      max-width: 254px;
+      max-height: 169px;
+      margin: 33px 18px 39px 0;
+      padding: 0;
+    }
+    &__wrapper-title4 {
+      padding: 3px 214px 0 29px;
+    }
+    &__wrapper-text4 {
+      padding: 0 15px 32px 32px;
+    }
+    &__link4 {
+      padding: 0 119px 34px 29px;
+    }
+  }
+}
