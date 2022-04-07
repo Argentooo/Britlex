@@ -198,4 +198,65 @@
       padding: 0 119px 34px 29px;
     }
   }
+  /*----ABOUT US----*/
+  .about-us {
+    margin-top: 106px;
+    &__inner {
+      padding: 0 5px 0 14px;
+      display: grid;
+      grid-template-columns: 527px 414px;
+      grid-template-rows: 365px;
+      gap: 0;
+    }
+    &__img {
+      max-width: 336px;
+      max-height: 336px;
+      padding: 0;
+      margin: 29px 0 0 76px;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 80px;
+      margin: 0;
+      padding: 0 360px 13px 0;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0;
+      padding: 0 7px 7px 0;
+    }
+    &__wrapper {
+      display: grid;
+      grid-template-columns: 59px 74px 154px;
+      gap: 55px;
+    }
+    &__second-title {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 80px;
+    }
+    &__second-text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &__second-text1 {
+      margin: 0;
+      padding: 0 10px 0 2px;
+    }
+    &__second-title2 {
+      margin: 0;
+      padding: 0 23px 0 20px;
+    }
+    &__second-text2 {
+      margin: 0;
+    }
+    &__second-title3 {
+      margin: 0;
+      padding: 0 0 0 57px;
+    }
+  }
 }
