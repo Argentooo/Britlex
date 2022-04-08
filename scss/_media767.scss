@@ -179,4 +179,63 @@
     }
   }
   /*----ABOUT US----*/
+  .about-us {
+    margin-top: 52px;
+    &__inner {
+      padding: 0 17px 0 22px;
+      grid-template-columns: 333px 333px;
+      grid-template-rows: 337px;
+      gap: 28px;
+    }
+    &__img {
+      max-height: 295px;
+      margin: 36px 0 6px 38px;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 79px;
+      padding: 0 195px 0 0;
+      margin: 0;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      padding: 0 9px 1px 0;
+    }
+    &__wrapper {
+      grid-template-columns: 94px 99px 123px;
+      grid-template-rows: 87px;
+      gap: 0;
+    }
+    &__box1 {
+      max-width: 43px;
+    }
+    &__second-title {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 65px;
+    }
+    &__second-text {
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+    }
+    &__second-text1 {
+      padding: 2px 3px 0 2px;
+    }
+    &__box2 {
+      max-width: 60px;
+    }
+    &__second-title2 {
+      padding: 0 19px 2px 18px;
+    }
+    &__box3 {
+      max-width: 123px;
+    }
+    &__second-title3 {
+      padding: 0 54px 2px 53px;
+    }
+  }
 }
