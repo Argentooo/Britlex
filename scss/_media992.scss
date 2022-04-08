@@ -397,4 +397,84 @@
       padding: 0 6px 0 0;
     }
   }
+  /*----CONTACTS----*/
+  .contacts {
+    margin-top: 135px;
+    &__inner {
+      padding: 0 6px 0 0;
+      gap: 105px;
+      grid-template-columns: 312px 535px;
+      grid-template-rows: 286px;
+    }
+    &__img {
+      max-height: 281px;
+      max-width: 312px;
+      margin: 5px 0 0 0;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 80px;
+      padding: 0 319px 3px 14px;
+      margin: 0;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0;
+      padding: 0 89px 34px 0;
+    }
+    &__form {
+      margin: 0;
+      gap: 14px;
+      padding: 0 5px 37px 0;
+    }
+    &__input {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      padding: 23px 109px 16px 38px;
+      max-height: 60px;
+    }
+    &__sub {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 21px 56px 15px 56px;
+    }
+  }
+  /*----FOOTER----*/
+  .footer {
+    margin-top: 157px;
+    &__inner {
+      padding: 0 14px 0 13px;
+      &::before {
+        left: 15px;
+        right: 14px;
+      }
+    }
+    &__logo {
+      max-height: 45px;
+      max-width: 89px;
+      margin: 22px 0 24px 0;
+    }
+    &__menu {
+      margin: 37px 0 30px 0;
+    }
+    &__link {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &__link1 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin-left: -11px;
+    }
+    &__item {
+      margin: 0 0 0 6px;
+    }
+  }
 }
