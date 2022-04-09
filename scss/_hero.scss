@@ -18,6 +18,14 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
+    position: relative;
+    &::before {
+      content: url(../images/light.svg);
+      position: absolute;
+      left: 424px;
+      top: 92px;
+      z-index: -1;
+    }
   }
   &__text {
     font-family: $main-font;

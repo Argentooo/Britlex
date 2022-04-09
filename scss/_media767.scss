@@ -43,6 +43,11 @@
       line-height: 45px;
       padding: 28px 120px 25px 0;
       margin: 0;
+      &::before {
+        content: url(../images/light3.svg);
+        left: 217px;
+        top: 90px;
+      }
     }
     &__text {
       font-weight: 400;
@@ -236,6 +241,204 @@
     }
     &__second-title3 {
       padding: 0 54px 2px 53px;
+    }
+    /*----PRİCİNG----*/
+  }
+  .pricing {
+    margin-top: 87px;
+    &__inner {
+      padding: 0 9px 0 9px;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 80px;
+    }
+    &__wrapper {
+      padding-top: 26px;
+      grid-template-columns: 249px 245px 223px;
+      grid-template-rows: 448px;
+    }
+    &__box1 {
+      max-width: 219px;
+    }
+    &__photo1 {
+      max-height: 197px;
+      margin: 5px 22px 0 0;
+    }
+    &__box1-text1 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      padding: 23px 33px 15px 12px;
+    }
+    &__box1-text2 {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      padding: 0 0 19px 13px;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__link1 {
+      padding: 0 0 0 14px;
+    }
+    &__a1 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 5px 23px 7px 12px;
+    }
+    &__strong {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      padding-right: 19px;
+    }
+    &__box2 {
+      max-width: 219px;
+    }
+    &__photo2 {
+      max-width: 219px;
+      margin: 35px 0 0 0;
+      max-height: 168px;
+    }
+    &__box2-text1 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      padding: 22px 107px 9px 0;
+    }
+    &__box2-text2 {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      padding: 0 5px 46px 0;
+    }
+    &__link2 {
+      padding: 0 8px 0 6px;
+    }
+    &__a2 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 5px 23px 7px 12px;
+    }
+    &__strong2 {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      padding: 0 9px 0 0;
+    }
+    &__photo3 {
+      max-height: 210px;
+      padding: 0 12px 0 1px;
+      margin: 0;
+    }
+    &__box3-text1 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      padding: 15px 128px 9px 1px;
+    }
+    &__box3-text2 {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      padding: 0 0 46px 0;
+    }
+    &__link4 {
+      padding: 0 18px 1px 0;
+    }
+    &__a3 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 5px 12px 4px 12px;
+    }
+    &__strong3 {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      padding-right: 6px;
+    }
+  }
+  /*----CONTACTS----*/
+  .contacts {
+    margin-top: 65px;
+    &__inner {
+      padding: 0 16px 0 10px;
+      grid-template-columns: 233px 440px;
+      gap: 36px;
+      grid-template-rows: 239px;
+    }
+    &__img {
+      max-height: 210px;
+      max-width: 233px;
+      margin: 29px 0 0 0;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 71px;
+      padding: 0 271px 0 0;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      padding: 0 49px 25px 2px;
+    }
+    &__form {
+      padding: 0 6px 30px 0;
+      gap: 6px;
+    }
+    &__input {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      padding: 16px 106px 16px 24px;
+      border-radius: 5px;
+    }
+    &__sub {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      border-radius: 5px;
+      padding: 15px 39px 15px 40px;
+    }
+  }
+  /*----FOOTER----*/
+  .footer {
+    margin-top: 112px;
+    &__inner {
+      padding: 0 22px 0 22px;
+      &::before {
+        left: 23px;
+        right: 22px;
+      }
+    }
+    &__logo {
+      margin: 18px 0 15px 0;
+    }
+    &__menu {
+      padding: 0;
+      margin: 31px 0 27px 0;
+    }
+    &__item + &__item {
+      margin-left: 5px;
+    }
+    &__link1 {
+      margin-left: -13px;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+    }
+    &__link {
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
     }
   }
 }

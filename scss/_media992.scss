@@ -61,6 +61,11 @@
       font-size: 48px;
       line-height: 64px;
       margin-top: 13px;
+      &::before {
+        content: url(../images/light2.svg);
+        left: 302px;
+        top: 90px;
+      }
     }
     &__img {
       max-width: 460px;
@@ -320,8 +325,8 @@
       margin: 0;
     }
     &__photo2 {
-      max-height: 195px;
       max-width: 267px;
+      min-height: 168px;
       margin: 37px 6px 0 0;
     }
     &__box2-text1 {
